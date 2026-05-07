@@ -33,6 +33,7 @@ function dakika(ms) {
 function sureYaz(dk) {
   let saat = Math.floor(dk / 60);
   let kalan = dk % 60;
+  timeZone: "Europe/Istanbul"
   if (saat > 0) return saat + " saat " + kalan + " dk";
   return kalan + " dk";
 }
