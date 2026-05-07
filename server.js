@@ -12,8 +12,15 @@ const personeller = [
 
 let kayitlar = {};
 
+function simdiTarih() {
+  return new Date().toLocaleDateString("tr-TR", {
+    timeZone: "Europe/Istanbul"
+  });
+}
+
 function simdiSaat() {
   return new Date().toLocaleTimeString("tr-TR", {
+    timeZone: "Europe/Istanbul"
     hour: "2-digit",
     minute: "2-digit"
   });
