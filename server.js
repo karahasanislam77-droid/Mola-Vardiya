@@ -6,7 +6,7 @@ const PORT = 3000;
 const personeller = [
   "Furkan Gloria",
   "Pinar Gloria",
-  "Mecit Gloria",
+  "Flooki Gloria",
   "Tigani Gloria"
 ];
 
